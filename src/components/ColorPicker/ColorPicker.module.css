@@ -11,3 +11,15 @@
   opacity: 0.85;
   cursor: pointer;
 }
+
+
+.ColorPicker {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+div {
+  /* margin: .5em; */
+}

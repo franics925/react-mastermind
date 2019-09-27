@@ -1,8 +1,13 @@
 import React from 'react';
+import styles from './GuessPeg.module.css';
 
 const GuessPeg = (props) => (
-  <div>
-    {props.color}
+  <div
+    className={styles.peg}
+    style={{
+      backgroundColor: props.color,
+    }}
+  >
   </div>
 );
 

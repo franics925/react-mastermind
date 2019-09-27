@@ -1,16 +1,37 @@
 .App {
   display: flex;
   flex-direction: column;
+
+  height: 100%;
+}
+
+body .container {
+  height: 100%;
 }
 
 .App-header {
-  background-color: #222;
   height: 50px;
   padding: 10px;
-  color: white;
-  font-size: 22px;
+  color: Grey;
+  font-size: 30px;
+  letter-spacing: .2em;
   text-align: center;
+  margin: 1em;
 }
 
 
+footer {
+  text-align: center;
+  margin: 1em;
+  font-size: 20px;
+  color: Grey;
+  letter-spacing: .1em;
+}
 
+.GuessRowNum {
+  display: flex;
+  width: 30px;
+  font-size: 22px;
+  align-items: center;
+  justify-content: flex-end;
+}
